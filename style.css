@@ -1,0 +1,699 @@
+header {
+  position: relative;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  height: 100%;
+  top: 35%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+}
+
+header > .row {
+  padding-top: 1rem;
+}
+
+header .body {
+  color: white;
+  padding-bottom: 7rem;
+  padding-top: 6rem;
+}
+
+@media screen and (min-width: 640px) {
+  header .body {
+    padding-top: 7rem;
+    padding-bottom: 10rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header .body {
+    padding-top: 9rem;
+    padding-bottom: 13rem;
+  }
+}
+
+header .body h2 {
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+}
+
+@media screen and (min-width: 640px) {
+  header .body h2 {
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header .body h2 {
+    padding-bottom: 4rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header .body .zu-toolfinder {
+    max-width: 31%;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  header .body .zu-toolfinder {
+    max-width: 25%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  header .body .zu-toolfinder {
+    max-width: 22%;
+  }
+}
+
+header .body button {
+  max-width: none;
+}
+main {
+  color: white !important;
+}
+
+main .statistics-and-map h1 {
+  margin: 0;
+}
+
+main .statistics-and-map p.text {
+  padding-bottom: 1.8rem;
+}
+
+@media screen and (min-width: 640px) {
+  main .statistics-and-map p.text {
+    padding-bottom: 0rem;
+  }
+}
+
+main .statistics-and-map .map img {
+  max-width: none;
+  position: relative;
+  top: -10px;
+  width: 136%;
+}
+
+main .statistics-and-map .figures {
+  display: flex;
+}
+
+main .statistics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+@media screen and (min-width: 640px) {
+  main .statistics {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  main .statistics .figure {
+    flex: 1;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 850px) {
+  main .statistics .figure p.small {
+    font-size: 13px;
+  }
+}
+
+main .statistics .figure:last-child p {
+  margin-bottom: 0;
+}
+
+main .for-who-is-peats {
+  margin-top: 7rem;
+}
+
+@media screen and (min-width: 640px) {
+  main .for-who-is-peats {
+    margin-top: 0;
+  }
+}
+
+main .for-who-is-peats h3 {
+  margin-bottom: 2rem;
+}
+
+main .for-who-is-peats .for-who-list p.for-who {
+  padding-top: 0.5rem;
+  border-top: 2px solid white;
+  margin-bottom: 4.5rem;
+}
+
+@media screen and (min-width: 640px) {
+  main .for-who-is-peats .for-who-list p.for-who {
+    border-top: none;
+    margin-bottom: 1rem;
+  }
+}
+
+main .for-who-is-peats button {
+  max-width: none;
+}
+
+@media screen and (min-width: 640px) {
+  main .for-who-is-peats button {
+    width: 215.5px;
+    margin-top: 4.5rem;
+  }
+}
+
+main .for-who-is-peats .map {
+  position: relative;
+}
+
+main .for-who-is-peats .map img {
+  max-width: none;
+  position: absolute;
+  height: 82%;
+  top: -10px;
+}
+
+@media screen and (min-width: 1024px) {
+  main .for-who-is-peats .map img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  main .for-who-is-peats .map img {
+    top: -11%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  main .for-who-is-peats .map img {
+    top: -19%;
+  }
+}
+
+main .for-who-is-peats .statistics-and-map {
+  margin-top: 2rem;
+}
+
+main .home-map-overview {
+  padding-top: 11rem;
+  position: relative;
+}
+
+main .home-map-overview button {
+  margin-top: 3rem;
+}
+
+main .home-map-overview .map {
+  position: absolute;
+  z-index: 1;
+  top: -330px;
+  right: -120px;
+}
+
+main .home-map-overview .map img {
+  height: auto;
+  width: 350px;
+}
+
+@media screen and (min-width: 640px) {
+  main .home-map-overview .map {
+    top: 105px;
+    right: -120px;
+  }
+  main .home-map-overview .map img {
+    height: auto;
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main .home-map-overview .map {
+    top: -90px;
+    right: -105px;
+  }
+  main .home-map-overview .map img {
+    height: auto;
+    width: 600px;
+  }
+}
+
+@media screen and (min-width: 1560px) {
+  main .home-map-overview .map {
+    right: -10px;
+  }
+}
+
+main .home-map-overview .resource.mobile .border {
+  border-bottom: 1px solid white;
+  content: '';
+  display: block;
+  margin-top: .5rem;
+  margin-bottom: 3rem;
+}
+
+main .home-map-overview .resource.mobile p {
+  margin-bottom: 0;
+}
+
+main .home-map-overview .resource.mobile .content {
+  display: flex;
+  align-items: center;
+}
+
+main .home-map-overview .resource.mobile .content .caret::after {
+  content: '\F054';
+  display: block;
+  padding: 1.5rem;
+  font-family: FontAwesome;
+  font-size: 1.2rem;
+}
+
+main .home-map-overview .resource.from-mobile {
+  display: flex;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+main .home-map-overview .resource.from-mobile .lines {
+  display: table;
+  margin-right: 2rem;
+  max-width: 300px;
+}
+
+@media screen and (max-width: 720px) {
+  main .home-map-overview .resource.from-mobile .lines {
+    max-width: 207px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main .home-map-overview .resource.from-mobile .lines {
+    max-width: 410px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  main .home-map-overview .resource.from-mobile .lines {
+    max-width: 500px;
+  }
+}
+
+main .home-map-overview .resource.from-mobile .pointer {
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+main .home-map-overview .resource.from-mobile .pointer::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  background: white;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+main .home-map-overview .resource.from-mobile .pointer::after {
+  content: '';
+  display: block;
+  border-bottom: 1px solid white;
+  opacity: 0.6;
+  flex: 1;
+}
+
+main .home-map-overview .resource.from-mobile h4, main .home-map-overview .resource.from-mobile p {
+  margin: 0;
+}
+
+main .home-map-overview .resource.from-mobile p {
+  padding-bottom: 0.3rem;
+}
+
+main .home-map-overview .resource.from-mobile .link {
+  margin-top: -0.1rem;
+}
+
+main .home-map-overview .resource.from-mobile .link a {
+  font-size: 1.1rem;
+}
+
+main .resource-sort-order {
+  padding-bottom: 3rem;
+}
+
+main .resource-sort-order .title {
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.8rem;
+  margin-top: 5rem;
+  border-bottom: 1px solid #53BE90;
+}
+
+@media screen and (min-width: 640px) {
+  main .resource-sort-order .title {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main .resource-sort-order .title {
+    padding-bottom: 0.8rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1215px) {
+  main .resource-sort-order .title {
+    font-size: 1.2em;
+  }
+}
+
+main .resource-sort-order .resource:first-child {
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 640px) {
+  main .resource-sort-order .resource .parameters > .row {
+    padding-left: 1.7rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main .resource-sort-order .resource .parameters > .row {
+    padding-left: 0rem;
+  }
+}
+
+main .resource-sort-order .resource .parameters > * {
+  margin-top: 1rem;
+}
+
+main .resource-sort-order .resource .parameters .provider {
+  margin-bottom: 1rem;
+}
+
+main .resource-sort-order .resource .parameters .provider .header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+main .resource-sort-order .resource .parameters .provider .header h4 {
+  margin-top: 0;
+}
+
+main .resource-sort-order .resource .parameters .provider .header .categoryIcons {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 640px) and (max-width: 1366px) {
+  main .resource-sort-order .resource .parameters .provider .header {
+    display: block;
+    margin-bottom: initial;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  main .resource-sort-order .resource .parameters .provider {
+    display: block;
+  }
+}
+
+main .resource-sort-order .resource .parameters .provider h4 {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  main .resource-sort-order .resource .parameters .provider h4 {
+    margin-top: 1rem;
+  }
+  main .resource-sort-order .resource .parameters .provider .description {
+    margin-top: 0.3rem;
+  }
+}
+
+main .resource-sort-order .resource .parameters .provider .categoryIcons {
+  margin-right: 0.8rem;
+}
+
+@media screen and (min-width: 1024px) {
+  main .resource-sort-order .resource .parameters .provider .categoryIcons {
+    margin-bottom: 0.8rem;
+  }
+}
+
+main .resource-sort-order .resource .parameters .tool {
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  main .resource-sort-order .resource .parameters .tool h3 {
+    margin-bottom: 0.9rem;
+  }
+}
+
+main .articles {
+  background-color: white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #4f4f4f;
+}
+
+main .articles .article {
+  margin-bottom: 3rem;
+}
+
+main .articles .article .content::before {
+  display: block;
+  margin-bottom: 0.5rem;
+  width: 33.33333%;
+  border-bottom: 1px solid #D9D9D9;
+  content: '';
+}
+
+main .articles .article .content h5 {
+  font-weight: 500;
+}
+
+main .articles .article .content p {
+  color: inherit;
+}
+
+main .articles .article .content button {
+  background-color: #53BE90;
+  border-color: #53BE90;
+  color: white;
+  font-size: 0.9em;
+  border-radius: 4px;
+  width: 47.61905%;
+}
+
+@media screen and (min-width: 440px) {
+  main .articles .article .content button {
+    width: 35.71429%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1300px) {
+  main .articles .article .content button {
+    width: 50%;
+  }
+}
+
+main .articles button.read-more {
+  background-color: #53BE90;
+  text-align: center;
+  padding: 1rem 0;
+  color: white;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  max-width: none;
+}
+h1 {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  h1 {
+    font-size: 27px;
+  }
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1024px) {
+  h2 {
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  h2 {
+    font-size: 19px;
+  }
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 640px) {
+  h3 {
+    font-size: 19px;
+  }
+}
+
+h4 {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 19px;
+  font-weight: 400;
+  color: #D9D9D9;
+}
+
+@media screen and (max-width: 640px) {
+  p {
+    font-size: 17px;
+  }
+}
+
+p.small {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 640px) {
+  p.small {
+    font-size: 15px;
+  }
+}
+
+a {
+  font-size: 17pt;
+  font-weight: 400;
+  color: #00A5E9;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.inherit {
+  color: inherit;
+  font-size: inherit;
+}
+
+button {
+  font-size: 17pt;
+  font-weight: 400;
+  padding: 10px, 15px;
+  background-color: #EB5D5F;
+  border: 1px solid #EB5D5F;
+  border-radius: 19px;
+  max-width: 215px;
+}
+
+button:hover {
+  color: #C14E4F;
+  border: 1px solid #C14E4F;
+}
+
+button {
+  width: 100%;
+  color: inherit;
+  cursor: pointer;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+button a {
+  color: inherit;
+  font-size: inherit;
+}
+
+.categoryIcons {
+  height: 35px;
+  width: 35px;
+  border: 1px solid #53BE90;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s linear;
+  background-color: #53BE90;
+  color: white;
+  display: flex;
+}
+
+body, .home-page {
+  position: relative;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.home-page .row {
+  max-width: 90rem !important;
+}
+
+.home-page::before {
+  display: block;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(to bottom, rgba(62, 145, 109, 0.8) 0%, #357c66 13%, #225843 63%, #206c51 99%);
+}
+
+@media screen and (min-width: 1024px) {
+  .home-page::before {
+    background: linear-gradient(to bottom, rgba(62, 145, 109, 0.8) 0%, #357c66 18%, #225843 63%, #206c51 99%);
+  }
+}
+
+@media screen and (orientation: landscape) and (max-width: 639px) {
+  .home-page button {
+    width: 33.33333%;
+  }
+}
+body {
+  background: #ece7e7;
+}
+
+.redBg {
+  background-color: red;
+  border-radius: 51px;
+  color: white;
+  padding: 5px;
+}
